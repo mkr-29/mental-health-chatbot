@@ -1,5 +1,5 @@
-from bert_embedding import BertEmbedding
-#from bert_serving.client import BertClient
+# from bert_embedding import BertEmbedding
+# from bert_serving.client import BertClient
 from flask import Flask, render_template, request
 import os
 import json
@@ -8,13 +8,15 @@ import pickle
 import joblib
 import numpy as np
 import pandas as pd
-#import tensorflow as tf
+# import tensorflow as tf
 #all packages 
 import nltk 
 import string 
 import re
 import random
 from nltk.corpus import stopwords 
+nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.tokenize import word_tokenize
 import sklearn
 from sklearn.metrics.pairwise import cosine_similarity

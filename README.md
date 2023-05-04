@@ -1,4 +1,13 @@
 # Miklal - ToCareBOTYou 
+Install these files before starting app.py
+1. pip install scikit-learn
+2. pip install Flask
+3. pip install requests
+4. pip install joblib
+5. pip install numpy
+6. pip install pandas
+7. pip install nltk
+8. pip install textblob
 <h3>A Mental health Chatbot</h3>
 
 The goal of this project is to be able to build a fully functional question and answering chatbot. 
